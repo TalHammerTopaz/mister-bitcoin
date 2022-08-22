@@ -1,0 +1,35 @@
+.home {
+  width: fit-content;
+  margin: 0 auto;
+  img {
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+  }
+
+  h3 {
+    padding: 10px;
+    font-weight: 500;
+
+    span {
+      padding-left: 20px;
+      font-weight: 400;
+    }
+  }
+
+  .transactions {
+    padding-top: 20px;
+    border-top: 2px solid darkgray;
+  }
+
+  p {
+    padding-left: 30px;
+  }
+
+  li {
+    list-style: square;
+  }
+}
